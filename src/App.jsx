@@ -18,16 +18,16 @@ const App = () => {
           <Route path="/login">
             <LoginPopUp />
           </Route>
-          <PrivateRoute path="/" exact>
+          <Route path="/" exact>
             <Home />
-          </PrivateRoute>
+          </Route>
           <PrivateRoute path="/cart">
             <Cart />
           </PrivateRoute>
           <PrivateRoute path="/order">
             <PlaceHolder />
           </PrivateRoute>
-          <Route exact path="/">
+          <Route exact path="/" >
             <Redirect to="/login" />
           </Route>
         </Switch>

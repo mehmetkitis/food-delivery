@@ -1,5 +1,4 @@
 .loginpopup {
-    position: absolute;
     z-index: 1;
     width: 100%;
     height: 100%;
@@ -9,7 +8,7 @@
 
 .login-popup-container {
     place-self: center;
-    width: max(23vw,330px);
+    width: max(23vw, 330px);
     color: #808080;
     background-color: white;
     display: flex;
@@ -19,6 +18,7 @@
     border-radius: 8px;
     font-size: 14px;
     animation: fadeIn 0.5s;
+    margin: 100px;
 }
 
 .login-popup-title {
